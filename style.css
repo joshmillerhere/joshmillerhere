@@ -1,534 +1,124 @@
+@charset "UTF-8";
 /* CSS Document */
 
+*{margin: 0;
+padding: 0;}
 
 
-*{
-	margin: 0;
-	padding: 0;
-}
 
 body{
-	width: 100%;
-}
-
-.a{
-	background-color: #F02A55;
-}
-
-.b{
-	background-color: #ffdc80;
-}
-
-.c{
-	background-color: #6442a1;
-}
-
-.d{
-	background-color: #d1525f;
-}
-
-.e{
-	background-color: #99283f;
-}
-
-.f{
-	background-color: #62408e;
-}
-
-.g{
-	background-color: #5244b7;
-}
-
-.h{
-	background-color: #d382b4;
-}
-
-.i{
-	background-color: #ff005c;
-}
-
-.j{
-	background-color: #a91b5c;
-}
-
-.k{
-	background-color: #ff525c;
-}
-
-.l{
-	background-color: #dfcfd3;
-}
-
-.m{
-	background-color: #ffad5c;
-}
-
-.n{
-	background-color: #7e005c;
-}
-
-.o{
-	background-color: #ff009b;
-}
-
-.p{
-	background-color: #ffbd5c;
-}
-
-.q{
-	background-color: #dd3713;
-}
-
-.r{
-	background-color: #9c005c;
-}
-
-.s{
-	background-color: #ff6a2b;
-}
-
-.t{
-	background-color: #ee3024;
-}
-
-.u{
-	background-color: #662fd9;
-}
-
-.v{
-	background-color: #880000;
-}
-
-.w{
-	background-color: #2D95D2;
-}
-
-.x{
-	background-color: #923054;
-}
-
-.y{
-	background-color: #ca003c;
-}
-
-.z{
-	background-color: #f2ce88;
-}
-
-
-
-.aFont{
-	font-family: "acier-bat-solid",sans-serif;
-}
-
-
-.bFont{
-	font-family: "bodoni-urw",serif;
-}
-
-.cFont{
-	font-family: "adobe-caslon-pro",sans-serif;
-}
-
-.dFont{
-	font-family: "din-2014", sans-serif;
-}
-
-.eFont{
-	font-family: "expo-serif-pro", sans-serif;
-}
-
-.fFont{
-	font-family: "jaf-facitweb", sans-serif;
-}
-
-.gFont{
-	font-family: "garamond-premier-pro", serif;
-}
-
-.hFont{
-	font-family: "henderson-sans-basic", sans-serif;
-}
-
-.iFont{
-	font-family: "ingra", sans-serif;
-}
-
-
-.jFont{
-	font-family: "jubilat", serif;
-}
-
-.kFont{
-	font-family: "kinesis-pro-3",serif;
-}
-
-.lFont{
-	font-family: "league-gothic",sans-serif;
-}
-
-.mFont{
-  font-family: "merriweather",serif;
-}
-
-.nFont{
-  font-family: "news-gothic-std",sans-serif;
-}
-
-.oFont{
-  font-family: "open-sans",sans-serif;
-}
-
-.pFont{
-  font-family: "proxima-nova", sans-serif;
-}
-
-.qFont{
-  font-family: "quatro",sans-serif;
-}
-
-.rFont{
-  font-family: "roboto",sans-serif;
-}
-
-.sFont{
-  font-family: "stencil-std",sans-serif;
-}
-
-.tFont{
-  font-family: "trajan-pro-3",serif;
-}
-
-
-.uFont{
-  font-family: "ubuntu",sans-serif;
-}
-
-.vFont{
-  font-family: "vag-rundschrift-d",sans-serif;
-}
-
-.wFont{
-  font-family: "willow-std",serif;
-}
-
-.xFont{
-  font-family: "xenera",sans-serif;
-}
-
-.yFont{
-  font-family: "youngblood",sans-serif;
-}
-
-.zFont{
-  font-family: "zekton",sans-serif;
-}
-
-
-
-
-.white{
+	background-color: #fff;
+	font-family: "geomanistregular", sans-serif;
 	color: #fff;
 }
 
-#border{
-	margin: 20px;
-	height: 	    calc(100% - 40px);
-	height:    -moz-calc(100% - 40px);
-	height: -webkit-calc(100% - 40px);
-	height:      -o-calc(100% - 40px);
-	width:          calc(100% - 40px);
-	width:     -moz-calc(100% - 40px);
-	width:  -webkit-calc(100% - 40px);
-	width:       -o-calc(100% - 40px);
-	border: solid 2px white;
+h1{
+	color: #ff4684;
+	font-family: "geomanistregular", sans-serif;
+	text-transform: lowercase;
+	font-size: 64px;
+	font-weight: bold;	
 }
 
-#contentWrapper{
-	width:          calc(100% - 80px);
-	width:     -moz-calc(100% - 80px);
-	width:  -webkit-calc(100% - 80px);
-	width:       -o-calc(100% - 80px);
-	position: relative;
-	margin: 0px 40px 3em 40px;
-}
-
-#topBar{
-	text-align: left;
-	margin: 30px 0px 0px 0px;
-}
-
-@media (max-width: 640px){
-	#topBar img{
-		height: 30px;
-	}
-}
-	
-@media (max-width: 640px){
-	#parent{
-		position: relative;
-		column-count: 1;
-	}
-	
-	#columnOne{
-		margin: 0;
-	}
-	
-	#paiting{
-		position: relative;
-	}
-	#typeface{
-		position: relative;
-	}
-	
-}
-
-@media (min-height: 640px){
-	body {
-		height: 100vh;
-	}
-	#bottle{
-		
+@media (max-width: 640px)
+ {
+	h1{
+		font-size: 42px;
 	}
 }
 
-#parent{
-	display: flex;
-	column-count: 2;
-}
 
-#pairing{
-	margin-top: 1em;
-	font-family: "proxima-nova",sans-serif;
-	width: 256px;
-	display: inline-block;
-	position:absolute;
-	right: 0;
-}
 
-#columnOne{
-	margin-right: 2.8em;
-}
-
-#pairing h2{
-	text-transform: uppercase;
-	font-size: 18px;
-	letter-spacing: 3px;
-	margin-bottom: .5em;
-}
-
-#pairing h3{
-	text-transform: uppercase;
+h2{
+	font-family: "geomanistregular", sans-serif;
+	font-weight: 550;
+	text-transform: lowercase;
+	color: #000;
+	letter-spacing: .3em;
 	font-size: 14px;
-	letter-spacing: 3px;
-}
-	
-#pairing p{
-	font-size: 15px;
-
-}
-
-#typeface{
-	width: 270px;
-}
-
-#typeface #letter h1{
-	font-size: 270px;
-}
-
-
-#typeface h2{
-	font-size: 36px;
-	letter-spacing: .1em;
-	margin-bottom: 10px;
-}
-
-#typeface h3{
-	font-size: 20px;
-	letter-spacing: .1em;
-	margin-bottom: 25px;
-}
-
-#typeface h4{
-	
-	margin-bottom: 10px;
-}
-
-
-#typeface p{
-	font-size: 16px;
-	margin-bottom: .7em;
-	line-height: 1.2em;
-}
-
-#typeface h5{
-	font-size: 20px;
-	letter-spacing: .1em;
-}
-
-#letter{
-	width: 100%;
-}
-
-
-#wine{
-	padding-top: 225px;
-	width: 650px;
-	font-family: "proxima-nova",sans-serif;	
-	margin-left: 100px;
 	
 }
 
-#wine h2{
-	text-transform: uppercase;
-	font-size: 36px;
-	font-weight: 100;
-	line-height: 36px;
-	
-}
-
-#wine h3{
-	font-size: 48px;
-	font-weight: 600;
-	line-height: 54px;
-}
-
-#wine h4{
-	font-size: 24px;
-	font-weight: 600;
-	line-height: 60px;
-}
-
-#bottle{
-	background-blend-mode: multiply;
-	position: absolute;
-	left: 300px;
-	bottom: -10px;
-	width: 250px;
-	height: 800px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 0px 120px;
-	z-index: -1000;
-}
-
-.aBottle{
-		background-image: url(img/wineA.jpg);
-}
-
-.bBottle{
-		background-image: url(img/wineB.jpg);
-}
-
-.cBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.dBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.eBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.fBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.gBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.hBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.iBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.jBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.kBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.lBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.mBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.nBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.oBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.pBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.qBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.rBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.sBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.tBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.uBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.vBottle{
-		background-image: url(img/wineV.jpg);
-}
-
-.wBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.xBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.yBottle{
-		background-image: url(img/wine.jpg);
-}
-
-.zBottle{
-		background-image: url(img/wine.jpg);
+@media only screen and (max-width: 640px) {
+	h2{
+		font-size: 12px;
+	}
 }
 
 
 
-#arrow a:link{
-	font-family: "proxima-nova", sans-serif;
+h3{
+	font-family: "geomanistregular", sans-serif;
+	text-transform: lowercase;
+	font-weight: bold;
+	letter-spacing: .02em;
+	margin-bottom: .5em;
+	font-size: 22px;
+	line-height: 4rem;
+	margin-top: -40px;
+}
+
+
+p{
+	font-weight: 300;
+	padding-top: -5px;
+	padding-bottom: 24px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+
+
+.pink{
+	color: #ff4684;
+}
+
+a{
 	text-decoration: none;
-	font-size: 24px;
-	font-weight: 600;
-	position: absolute;
-	right: 0;
-	top: 380px;
-	
+	color: #BEBCB9;
+	transition: .1s;
 }
-	
+
+a:hover{
+	color: #44433F;
+}
 
 
-	
+#container{
+	height: 100vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+#textContainter{
+
+	position: relative;
+	margin: -40px auto;
+}
+
+#text{
+	margin: 0 auto;
+	opacity: .4;
+	text-align: center;
+}
+
+
+
+
+#logo{
+		margin: 0 auto;
+		display: block;
+		padding-top: 30vh;
+	}
+
+
+
+	@media(min-width: 640px) {
+
+	}
+
+
+
+
