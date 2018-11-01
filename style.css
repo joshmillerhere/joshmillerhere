@@ -109,7 +109,7 @@ a:hover{
 
 #logo{
 		margin: 0 auto;
-		display: block;
+		display: inline;
 		padding-top: 30vh;
 	}
 
