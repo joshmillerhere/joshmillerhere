@@ -407,7 +407,9 @@ padding-top: 3rem;
 }
 
 
-
+img{
+	width: 100%
+}
 
 @media(max-width: 640px) {
     .columnTwo {
